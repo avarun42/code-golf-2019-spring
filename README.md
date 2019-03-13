@@ -12,7 +12,7 @@ it runs and proof that it produces the correct output. Submission input will be 
 
 ### Submission
 You will need to submit the source code for each question.
-Fork this GitHub repository, and just copy and paste your repository link [here](https://goo.gl/forms/j8UzgzPadkrxWqCl2)
+Fork this GitHub repository, and just copy and paste your repository link [here](https://goo.gl/forms/5MkvVnqUSHOQgFeE2)
 * Each _solution_ file (your actual code) must be in a directory titled `solutions`
 * Generate _answer_ files using your solution. The input files are in the `inputs` directory. Each individual input is separated by a newline (the input for problem 4 has an additional blank line in between each matrix). Separate your output in the file by newlines.
 * Each _answer_ file (your generated answers) must be in a directory titled `answers`
@@ -91,7 +91,7 @@ Example Input:
   
 Example Output:
 ```
-abchd
+abch
 cde
 eefg
 ```
@@ -107,7 +107,10 @@ Example Input:
 0 1 0 1 1 0 0 1 0 1 0 1 0
 0 0 1 1 0 0 1 0 1 0 1 0 1
 ```
-
+Example Output:
+```
+16
+```
 
 ### 5) Inverse Pyramids
 #### Given an arbitrary word, create an "inverse pyramid" for it. You can assume that any ASCII character may be inlcuded in the word.  Case and formattingn must be maintained in the final results, and you should print a single blank line in between the inverse pyramid for each input.
