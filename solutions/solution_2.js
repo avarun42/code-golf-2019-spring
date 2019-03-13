@@ -1,10 +1,1 @@
-require('fs').readFileSync('inputs/2.txt', 'utf8').split('\n').map(s => {
-    let [x, y] = s.split(' ').map(n => +n);
-    let val = x ^ y;
-    let dist = 0;
-    while (val > 0) {
-        val &= val - 1;
-        dist++;
-    }
-    console.log(dist);
-});
+require("fs").readFileSync("inputs/2.txt","utf8").split("\n").map(t=>{let[e,l]=t.split(" ").map(t=>+t),i=e^l,p=0;for(;i>0;)i&=i-1,p++;console.log(p)});

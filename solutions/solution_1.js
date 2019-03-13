@@ -1,11 +1,1 @@
-let n = 100000;
-let x = Array.from(Array(n), (e, i) => i+2);
-for (let i = 0; i < x.length; i++) {
-    p = x[i];
-    x = x.filter(e => e % p != 0 || e==p);
-}
-for (let i = 1; i < x.length; i++) {
-    if (x[i] - 2 == x[i-1]) {
-        console.log(x[i-1] + " " + x[i]);
-    }
-}
+let n=1e5,x=Array.from(Array(n),(x,e)=>e+2);for(let e=0;e<x.length;e++)p=x[e],x=x.filter(x=>x%p!=0||x==p);for(let e=1;e<x.length;e++)x[e]-2==x[e-1]&&console.log(x[e-1]+" "+x[e]);

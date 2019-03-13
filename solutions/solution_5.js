@@ -1,12 +1,1 @@
-require('fs').readFileSync('inputs/5.txt', 'utf8')
-                    .split('\n')
-                    .map(s => s.split(''))
-                    .map(s => {
-                        console.log();
-                        for (i = s.length; i > 0; i--) {
-                            console.log(s.slice(0, i).join(''));
-                        }
-                        for (i = 2; i <= s.length; i++) {
-                            console.log(s.slice(0, i).join(''));
-                        }
-                    })
+require("fs").readFileSync("inputs/5.txt","utf8").split("\n").map(i=>i.split("")).map(l=>{for(console.log(),i=l.length;i>0;i--)console.log(l.slice(0,i).join(""));for(i=2;i<=l.length;i++)console.log(l.slice(0,i).join(""))});
